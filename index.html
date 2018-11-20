@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="forma">
+    <h3><span>Оставьте заявку</span><br>для точной оценки отправьте фото Вашей мебели<br>в Viber ‎(068)789-01-55</h3>
+    <form action="sms.php" method="post" id="f_form">
+        <input type="text" class="text" name="f_name" id="f_name" placeholder="Ваше имя">
+        <input type="text" class="text" name="f_tel" id="f_tel" placeholder="+38(___)-___-__-__"><br>
+        <select id="f_serv" name="f_servis">
+            <option selected="" disabled="" value="">Выберите услугу</option>
+            <option value="Мебель">Мебель</option>
+            <option value="Диваны">Диваны</option>
+            <option value="Матрасы">Матрасы</option>
+            <option value="Ковры и ковровое покрытие">Ковры и ковровое покрытие</option>
+            <option value="Другие услуги">Другие услуги</option>
+            <option value="Озонирование">Озонирование</option>
+        </select>
+        <select id="f_town" name="f_town">
+            <option selected="" disabled="">Выберите город</option>
+            <option data-mail="" value="120">Днепр</option>
+            <option data-mail="" value="121">Запорожье</option>
+            <option data-mail="" value="137">Киев</option>
+            <option data-mail="" value="138">Ивано-Франковск</option>
+            <option data-mail="" value="139">Луцк</option>
+            <option data-mail="" value="140">Харьков</option>
+            <option data-mail="" value="141">Львов</option>
+            <option data-mail="" value="146">Черкассы</option>
+        </select>
+        <h6></h6>
+        <button type="submit" class="all_btn b_btn f_btn">Отправить</button>
+    </form>
+</div>
+</body>
+</html>
